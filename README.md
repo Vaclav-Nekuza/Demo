@@ -28,6 +28,7 @@ each method tests part of the program using testing logs in directory 'test\_fil
 For this scipt to be initialize in regular intervals use cron (root access needed).
 
 With command 'sudo crontab -e' you access cron scheduler. 
+
 By adding line '0 5 1 * * \<absolute path to python3 interpreter> \<absolute path to the script>' script will initialize first day every month at 5:00 AM.
 
 ## Authors
