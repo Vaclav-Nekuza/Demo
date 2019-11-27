@@ -20,7 +20,7 @@ Constructor: When creating new instance it needs to initialize with a path to a 
 'archive': To keep logs reasonably organized, this method archives older logs that are already compressed using gzip to a new folder archive to the corresponding folders according to date.
 
 ### Testing
-each method tests part of the program using testing logs in directory 'test\_files' corresponding to the name, except for method 'cleanup' 
+Each method tests part of the program using testing logs in directory 'test\_files' corresponding to the name, except for method 'cleanup'.
 
 'cleanup': Removes already used files and copy new ones from a backup directory.
 
@@ -33,4 +33,3 @@ By adding line '0 5 1 * * \<absolute path to python3 interpreter> \<absolute pat
 
 ## Authors
 * **Václav Nekuža** - assigned by **KAJOT**
-'
